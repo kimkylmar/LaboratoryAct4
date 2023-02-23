@@ -18,7 +18,7 @@ h1 {
 p {
   font-family: "Courier New", monospace;
   text-align: justify;
-  color: rgb(0, 0, 0);
+  color: rgb(70, 70, 70);
 }
 
 .text-container {
@@ -42,4 +42,7 @@ footer {
 footer p {
   text-align: center;
   color: white;
+}
+
+.table-rates {
 }
