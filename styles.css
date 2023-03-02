@@ -6,6 +6,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 h1 {
@@ -44,5 +47,13 @@ footer p {
   color: white;
 }
 
-.table-rates {
+.table-rates :is(table, td, th) {
+  margin-top: 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-collapse: collapse;
+  background-color: rgba(137, 222, 255, 0.595);
+}
+
+.table-rates :is(td, th) {
+  padding: 0, 2rem 0.5rem;
 }
